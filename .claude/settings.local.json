@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(find:*)",
+      "Bash(npm test:*)",
+      "Bash(echo DISPLAY=$DISPLAY)",
+      "Bash(echo WAYLAND_DISPLAY=$WAYLAND_DISPLAY)",
+      "Read(//mnt/wslg/**)",
+      "Bash(DISPLAY=:0 WAYLAND_DISPLAY=wayland-0 npm run dev 2>&1)",
+      "Bash(curl:*)"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+This is a sample text file for testing the file parser.
+
+It contains multiple paragraphs and some basic content.
+
+The file parser should be able to read this file and return its contents as a string.
+
+Special characters: & < > " '
+
+Multiple blank lines should be collapsed:
+
+
+
+Like above - those extra blank lines should become at most two newlines.
+
+End of sample file.
