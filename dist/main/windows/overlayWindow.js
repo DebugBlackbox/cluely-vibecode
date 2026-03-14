@@ -35,6 +35,7 @@ function createOverlayWindow(preloadPath) {
             contextIsolation: true,
             preload: preloadPath,
             nodeIntegration: false,
+            sandbox: false,
         },
     });
     // Ignore mouse events by default (overlay is pass-through)

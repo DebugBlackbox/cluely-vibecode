@@ -33,6 +33,7 @@ export function createOverlayWindow(preloadPath: string): BrowserWindow {
       contextIsolation: true,
       preload: preloadPath,
       nodeIntegration: false,
+      sandbox: false,
     },
   })
 
